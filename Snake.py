@@ -62,18 +62,29 @@ def move_snake():
     x, y = get_coords(snake_segments[0])
 
     if foods:
-        fx, fy = get_coords(foods[0])
-        dx = fx - x
-        dy = fy - y
-        dist = math.hypot(dx, dy)
+        # Buscar comida más cercana
+        closest_food = None
+        min_distance = float('inf')
 
-        if dist < step:
-            canvas.delete(foods[0])
-            foods.pop(0)
-            add_segment()
-        else:
-            angle = math.atan2(dy, dx)
-            direction_vector = [math.cos(angle), math.sin(angle)]
+        for food in foods:
+            fx, fy = get_coords(food)
+            dist = math.hypot(fx - x, fy - y)
+            if dist < min_distance:
+                min_distance = dist
+                closest_food = food
+
+        if closest_food:
+            fx, fy = get_coords(closest_food)
+            dx = fx - x
+            dy = fy - y
+
+            if min_distance < step:
+                canvas.delete(closest_food)
+                foods.remove(closest_food)
+                add_segment()
+            else:
+                angle = math.atan2(dy, dx)
+                direction_vector = [math.cos(angle), math.sin(angle)]
 
     new_x = x + step * direction_vector[0]
     new_y = y + step * direction_vector[1]
