@@ -2,6 +2,7 @@ import tkinter as tk
 import math
 import random
 import os
+import sys
 
 # Initial configuration
 step = 15
@@ -14,13 +15,18 @@ snake_segments = []
 root = tk.Tk()
 root.title("Snake")
 
-# Load icon (must be .png)
-logo_path = os.path.abspath("logo.png")
-try:
-    icon = tk.PhotoImage(file=logo_path)
-    root.iconphoto(True, icon)
-except Exception as e:
-    print(f"Could not load icon: {e}")
+# Load window icon (must be .ico for exe)
+if getattr(sys, 'frozen', False):
+    base_path = sys._MEIPASS if hasattr(sys, "_MEIPASS") else os.path.dirname(sys.executable)
+else:
+    base_path = os.path.dirname(os.path.abspath(__file__))
+
+icon_path = os.path.join(base_path, "logo.ico")
+
+if os.path.exists(icon_path):
+    root.iconbitmap(icon_path)
+else:
+    print("Icon file not found:", icon_path)
 
 # Fullscreen
 root.state('zoomed')
