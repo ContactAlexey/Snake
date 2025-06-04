@@ -34,11 +34,7 @@
 
   <h2>🧠 Lógica</h2>
   <p>La serpiente sigue automáticamente la comida más cercana usando trigonometría. Si choca con los bordes, gira en una dirección aleatoria para continuar el movimiento. 🧭</p>
-
-  <h2>📁 Empaquetado (opcional)</h2>
-  <p>Para crear un archivo ejecutable con ícono:</p>
-  <pre><code>pyinstaller --onefile --windowed --icon=logo.ico snake.py</code></pre>
-
+  
   <h2>💡 Autor</h2>
   <p>Creado con fines educativos y de entretenimiento. ¡Disfrútalo! 😄</p>
 </body>
