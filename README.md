@@ -1,40 +1,40 @@
 <body>
-  <h1>🐍 Juego Snake con Tkinter</h1>
+  <h1>🐍 Snake</h1>
 
-  <p>Este proyecto es una versión automática del clásico juego <strong>Snake</strong> utilizando <code>Tkinter</code> en Python. La serpiente se mueve sola buscando la comida más cercana. 🍎</p>
+  <p>This project is an automatic version of the classic <strong>Snake</strong> game using <code>Tkinter</code> in Python. The snake moves on its own, seeking the nearest food. 🍎</p>
 
-  <h2>🚀 Características</h2>
+  <h2>🚀 Features</h2>
   <ul>
-    <li>Movimiento automático de la serpiente 🧠</li>
-    <li>Generación de comida con clics del mouse 🍖</li>
-    <li>Detección de bordes con rebote aleatorio ↩️</li>
-    <li>Expansión de la serpiente al comer 💥</li>
-    <li>Ventana en pantalla completa 📺</li>
-    <li>Ícono personalizado (logo.ico) 🎨</li>
+    <li>Automatic snake movement 🧠</li>
+    <li>Food generation by mouse clicks 🍖</li>
+    <li>Edge detection with random bounce ↩️</li>
+    <li>Snake grows when eating 💥</li>
+    <li>Fullscreen window 📺</li>
+    <li>Custom icon support (logo.ico) 🎨</li>
   </ul>
 
-  <h2>📦 Requisitos</h2>
+  <h2>📦 Requirements</h2>
   <ul>
     <li>Python 3.x 🐍</li>
-    <li>Biblioteca estándar (Tkinter ya viene incluida) 📚</li>
+    <li>Standard library (Tkinter is included) 📚</li>
   </ul>
 
-  <h2>▶️ Cómo ejecutar</h2>
+  <h2>▶️ How to Run</h2>
   <ol>
-    <li>Asegúrate de tener <code>Python</code> instalado ✅</li>
-    <li>Guarda el código en un archivo <code>.py</code> (por ejemplo, <code>snake.py</code>) 💾</li>
-    <li>Coloca un ícono <code>logo.ico</code> en el mismo directorio (opcional) 🖼️</li>
-    <li>Ejecuta el archivo con <code>python snake.py</code> 💡</li>
+    <li>Make sure you have <code>Python</code> installed ✅</li>
+    <li>Save the code in a <code>.py</code> file (e.g., <code>snake.py</code>) 💾</li>
+    <li>Place a <code>logo.ico</code> file in the same directory (optional) 🖼️</li>
+    <li>Run the file using <code>python snake.py</code> 💡</li>
   </ol>
 
-  <h2>🖱️ Controles</h2>
+  <h2>🖱️ Controls</h2>
   <ul>
-    <li><strong>Clic izquierdo</strong>: Genera una comida en la posición del clic 🍗</li>
+    <li><strong>Left click</strong>: Creates food at the click location 🍗</li>
   </ul>
 
-  <h2>🧠 Lógica</h2>
-  <p>La serpiente sigue automáticamente la comida más cercana usando trigonometría. Si choca con los bordes, gira en una dirección aleatoria para continuar el movimiento. 🧭</p>
+  <h2>🧠 Logic</h2>
+  <p>The snake automatically follows the closest food using trigonometry. If it hits a boundary, it turns in a random direction to continue moving. 🧭</p>
   
-  <h2>💡 Autor</h2>
-  <p>Creado con fines educativos y de entretenimiento. ¡Disfrútalo! 😄</p>
+  <h2>💡 Author</h2>
+  <p>Created for educational and entertainment purposes. Enjoy it! 😄</p>
 </body>
