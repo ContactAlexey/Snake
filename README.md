@@ -33,7 +33,7 @@
   <h2>📁 File Structure</h2>
   <ul>
     <li><code>snake_game.py</code> - 🐍 Main Python script</li>
-    <li><code>logo.gif</code> - 🖼️ Optional icon for the game window</li>
+    <li><code>logo.png</code> - 🖼️ Optional icon for the game window</li>
   </ul>
 
   <h2>📜 License</h2>
