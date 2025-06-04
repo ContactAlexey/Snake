@@ -14,7 +14,7 @@ snake_segments = []
 root = tk.Tk()
 root.title("Snake")
 
-# Load icon (must be .gif)
+# Load icon (must be .png)
 logo_path = os.path.abspath("logo.png")
 try:
     icon = tk.PhotoImage(file=logo_path)
