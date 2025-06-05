@@ -1,5 +1,5 @@
 <body>
-  <h1>🐍 Snake Game with Tkinter 🎮</h1>
+  <h1>🐍 Snake Game🎮</h1>
   <p>A simple Snake game implemented in Python using the Tkinter library. The snake moves automatically toward food placed by mouse clicks. The snake grows by eating food and shrinks gradually if it exceeds a certain length.</p>
 
   <h2>✨ Features</h2>
