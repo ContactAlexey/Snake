@@ -36,6 +36,7 @@
   <ul>
     <li>🖱️ <strong>Left mouse click</strong>: Place food on the game board.</li>
   </ul>
+  <img src="https://github.com/ContactAlexey/Snake/blob/fbda8cbd5f4ed7105ee0090e4f316bec8145fd99/Snake.gif">
 
   <h2>🧩 How It Works</h2>
   <ul>
